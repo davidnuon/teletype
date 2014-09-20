@@ -1,0 +1,27 @@
+
+Name:                teletype
+Version:             0.0.1
+-- Synopsis:
+-- Description:
+License:             MIT
+-- License-file:
+Author:              Mike Verdone
+Copyright:           (c) 2014 Mike Verdone
+-- Maintainer:          bkomuves (plus) hackage (at) gmail (dot) com
+-- Homepage:            http://code.haskell.org/~bkomuves/
+-- Stability:           Experimental
+-- Category:            Sound, System
+-- Tested-With:         GHC == 7.4.2
+Cabal-Version:       >= 1.16
+Build-Type:          Simple
+
+-- source-repository head
+--   type:     darcs
+--   location: http://code.haskell.org/~bkomuves/projects/hmidi/
+
+Executable tele-test
+  Hs-Source-Dirs: .
+  Main-Is: tele-test.hs
+  Build-Depends:
+    base >= 4,
+    parport
